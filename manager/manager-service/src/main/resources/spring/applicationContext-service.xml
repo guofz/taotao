@@ -23,7 +23,7 @@
 
 	
 	<!-- 声明需要暴露的服务接口 -->
-	<dubbo:service interface="com.study.service.ItemService" ref="itemServiceImpl" />
+	<dubbo:service interface="com.study.service.ItemService" ref="itemServiceImpl" timeout="60000"/>
 
 
 	
