@@ -6,6 +6,6 @@ import com.study.common.EasyUiTreeNode;
 
 public interface ItemCatService {
 
-	List<EasyUiTreeNode> list();
+	List<EasyUiTreeNode> list(Long parentId);
 
 }

@@ -24,7 +24,7 @@ public class ItemCatController {
 	
 	@RequestMapping("/list")
 	@ResponseBody
-	private List<EasyUiTreeNode> list() {
-		return itemCatService.list();
+	private List<EasyUiTreeNode> list(Long id) {
+		return itemCatService.list(id == null ? 0l : id);
 	}
 }
