@@ -17,7 +17,9 @@
 	<mvc:annotation-driven />
 	
 	<!-- 配置文件方式注入 -->
-	<dubbo:reference id="itemService" interface="com.study.service.ItemService" />
+	<dubbo:reference id="itemService" interface="com.study.service.ItemService" /> 
+	<dubbo:reference id="itemCatService" interface="com.study.service.ItemCatService" />
+	
 	<!-- 注解方式注入 -->
 	<!-- Controller注解扫描之前扫描 -->
 	<!-- <dubbo:annotation package="com.study.controller.*" /> -->
