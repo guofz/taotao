@@ -1,19 +1,18 @@
 package com.study.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 import com.study.mapper.TbItemMapper;
 import com.study.pojo.TbItem;
 import com.study.service.ItemService;
 
-
 /**
- * 商品管理服务层
- * @author 丰志
+ * ��Ʒ����
+ * 
+ * @author ��־
  *
  */
-@Service
+@org.springframework.stereotype.Service
 public class ItemServiceImpl implements ItemService {
 
 	@Autowired

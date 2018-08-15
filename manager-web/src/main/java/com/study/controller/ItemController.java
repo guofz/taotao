@@ -19,7 +19,7 @@ import com.study.service.ItemService;
 public class ItemController {
 
 	@Autowired
-	private ItemService itemService;
+	ItemService itemService;
 	
 	@RequestMapping("/{itemId}")
 	@ResponseBody
@@ -27,4 +27,5 @@ public class ItemController {
 		TbItem tbItem = itemService.getItemById(itemId);
 		return tbItem;
 	}
+	
 }
