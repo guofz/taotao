@@ -24,6 +24,7 @@
 	<!-- 声明需要暴露的服务接口 -->
 	<dubbo:service interface="com.study.service.ItemService" ref="itemServiceImpl" timeout="60000"/>
 	<dubbo:service interface="com.study.service.ItemCatService" ref="itemCatServiceImpl" timeout="60000"/>
+	<dubbo:service interface="com.study.service.test.PersonManagementService" ref="personManagementServiceImpl" timeout="10800000"/>
 	
 	
 	

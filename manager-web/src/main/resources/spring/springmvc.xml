@@ -19,6 +19,7 @@
 	<!-- 配置文件方式注入 -->
 	<dubbo:reference id="itemService" interface="com.study.service.ItemService" /> 
 	<dubbo:reference id="itemCatService" interface="com.study.service.ItemCatService" />
+	<dubbo:reference id="personManagement" interface="com.study.service.test.PersonManagementService" timeout="10800000"/>
 	
 	<!-- 注解方式注入 -->
 	<!-- Controller注解扫描之前扫描 -->
