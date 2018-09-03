@@ -33,7 +33,6 @@ public class ItemController {
 	@RequestMapping("/pageList")
 	@ResponseBody
 	private EasyUiPageFormat<TbItem> pageList(@RequestParam("page") Integer currentPage, @RequestParam("rows") Integer pageSize) {
-		System.out.println(currentPage);
 		return itemService.pageList(currentPage, pageSize, null);
 	}
 	
